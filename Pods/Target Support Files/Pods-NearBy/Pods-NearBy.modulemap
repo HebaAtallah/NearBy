@@ -1,0 +1,6 @@
+module Pods_NearBy {
+  umbrella header "Pods-NearBy-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,68 @@
+PODS:
+  - Alamofire (5.1.0)
+  - Differentiator (4.0.1)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - R.swift (5.1.0):
+    - R.swift.Library (~> 5.1.0)
+  - R.swift.Library (5.1.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxCoreLocation (1.4.2):
+    - RxCoreLocation/Core (= 1.4.2)
+  - RxCoreLocation/Core (1.4.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.13.4)
+  - Moya/RxSwift (~> 14.0.0)
+  - R.swift (~> 5.1.0)
+  - RxCoreLocation (~> 1.4)
+  - RxDataSources (~> 4.0.1)
+  - RxSwift (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - Moya
+    - R.swift
+    - R.swift.Library
+    - RxCocoa
+    - RxCoreLocation
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
+  R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxCoreLocation: 0cde68bd64dd1af3e7beaaac8a693ef613fd3a05
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: b6e5e3459212321292662492a6a295c07bdc1298
+
+COCOAPODS: 1.8.4
