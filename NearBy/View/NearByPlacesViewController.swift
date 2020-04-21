@@ -88,9 +88,9 @@ class NearByPlacesViewController: UIViewController, NearByPlacesDisplayLogic {
         blankSlateView.image.image = UIImage(named: blankSlate.image)
         blankSlateView.title.text = blankSlate.description
         
-        view.frame = frame
+        blankSlateView.frame = frame
         
-        placesView.addSubview(view)
+        placesView.addSubview(blankSlateView)
     }
     
     private func style() {
