@@ -66,15 +66,15 @@ enum NearByEndPoint: TargetType {
             "v": "20160607",
             "limit": 10,
             "ll": String(format: "%f,%f", latitude, longitude),
-            "client_id": "YK0VMRI43ABSRFL42NFVGKDS03U3HIJWXXQNHXG1AJKKVPNO",
-            "client_secret": "54LNAIHRFSGXSL45QIC2IDYSFKA2P4C42NQNP4JZS2DEO1IX"]
+            "client_id": ServiceInfo.clientId.info,
+            "client_secret": ServiceInfo.clientSecret.info]
     }
     
     private func photosRequestParameters() -> [String: Any] {
         return [
             "v": "20160607",
-            "client_id": "YK0VMRI43ABSRFL42NFVGKDS03U3HIJWXXQNHXG1AJKKVPNO",
-            "client_secret": "54LNAIHRFSGXSL45QIC2IDYSFKA2P4C42NQNP4JZS2DEO1IX"]
+            "client_id": ServiceInfo.clientId.info,
+            "client_secret": ServiceInfo.clientSecret.info]
     }
     
     private func stubbedResponse(_ filename: String) -> Data! {
