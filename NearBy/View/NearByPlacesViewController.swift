@@ -61,7 +61,7 @@ class NearByPlacesViewController: UIViewController, NearByPlacesDisplayLogic {
         super.viewDidLoad()
         
         displayLoadingView()
-
+        
         interactor?.loadTrackingMood()
     }
     
@@ -124,7 +124,9 @@ extension NearByPlacesViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.placesCell, for: indexPath)!
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.placesCell, for: indexPath) else {
+            fatalError("placesCell is not found")
+        }
         
         let loadImageTask = interactor?.loadImageTask(for: self.places[indexPath.row].id)
         cell.configureWith(place: self.places[indexPath.row], loadImageTask: loadImageTask)
