@@ -58,7 +58,7 @@ enum NearByEndPoint: TargetType {
     }
     
     var headers: [String: String]? {
-        return nil
+        return ["Content-type": "application/json"]
     }
     
     private func placesRequestParameters(latitude: Double, longitude: Double) -> [String: Any] {
