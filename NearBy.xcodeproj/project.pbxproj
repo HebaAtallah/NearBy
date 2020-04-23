@@ -20,6 +20,7 @@
 		834BF3AB244CDC700055925B /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834BF3AA244CDC700055925B /* LocationProvider.swift */; };
 		836BF10D244F991B00BC3D1C /* ServiceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BF10C244F991B00BC3D1C /* ServiceInfo.swift */; };
 		836BF110244FA08E00BC3D1C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BF10F244FA08E00BC3D1C /* R.generated.swift */; };
+		839096322451F1500013A678 /* photos.json in Resources */ = {isa = PBXBuildFile; fileRef = 839096312451F14F0013A678 /* photos.json */; };
 		83A4E643244765070092A566 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A4E642244765070092A566 /* AppDelegate.swift */; };
 		83A4E64A244765070092A566 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A4E648244765070092A566 /* Main.storyboard */; };
 		83A4E64C2447650E0092A566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A4E64B2447650E0092A566 /* Assets.xcassets */; };
@@ -66,11 +67,13 @@
 		833520DA244BA8DE001F8E6C /* NearByPlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NearByPlacesViewController.swift; path = NearBy/View/NearByPlacesViewController.swift; sourceTree = SOURCE_ROOT; };
 		833520DB244BA8DE001F8E6C /* NearByPlacesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NearByPlacesInteractor.swift; path = NearBy/Interactor/NearByPlacesInteractor.swift; sourceTree = SOURCE_ROOT; };
 		833520E2244CB143001F8E6C /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
-		83395DBC2448B26E00A2E125 /* NearByEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByEndPoint.swift; sourceTree = "<group>"; };
+		83395DBC2448B26E00A2E125 /* NearByEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByEndPoint.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		83395DFC2448DBBC00A2E125 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		834BF3AA244CDC700055925B /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		836BF10C244F991B00BC3D1C /* ServiceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceInfo.swift; sourceTree = "<group>"; };
 		836BF10F244FA08E00BC3D1C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		839096302451F0A70013A678 /* places.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		839096312451F14F0013A678 /* photos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = photos.json; path = ../../../../../photos.json; sourceTree = "<group>"; };
 		83A4E63F244765070092A566 /* NearBy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A4E642244765070092A566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A4E649244765070092A566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -145,6 +148,7 @@
 		83395DBB2448B03200A2E125 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8390962F2451F0A60013A678 /* stubbed Responses */,
 				83395DBC2448B26E00A2E125 /* NearByEndPoint.swift */,
 			);
 			path = Network;
@@ -156,6 +160,15 @@
 				836BF10F244FA08E00BC3D1C /* R.generated.swift */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		8390962F2451F0A60013A678 /* stubbed Responses */ = {
+			isa = PBXGroup;
+			children = (
+				839096312451F14F0013A678 /* photos.json */,
+				839096302451F0A70013A678 /* places.json */,
+			);
+			path = "stubbed Responses";
 			sourceTree = "<group>";
 		};
 		83A4E636244765060092A566 = {
@@ -412,6 +425,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839096322451F1500013A678 /* photos.json in Resources */,
 				83A4E64F2447650E0092A566 /* LaunchScreen.storyboard in Resources */,
 				83A4E64C2447650E0092A566 /* Assets.xcassets in Resources */,
 				83A4E64A244765070092A566 /* Main.storyboard in Resources */,

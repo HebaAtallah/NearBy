@@ -1,0 +1,336 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5ea1962c6001fe001c66e12f"
+    },
+    "response": {
+        "headerLocation": "Current map view",
+        "headerFullLocation": "Current map view",
+        "headerLocationGranularity": "unknown",
+        "totalResults": 4,
+        "suggestedBounds": {
+            "ne": {
+                "lat": 29.962781009000008,
+                "lng": 30.951258086206987
+            },
+            "sw": {
+                "lat": 29.94478099099999,
+                "lng": 30.93052191379301
+            }
+        },
+        "groups": [
+            {
+                "type": "Recommended Places",
+                "name": "recommended",
+                "items": [
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "57accfaa498e385b2387e264",
+                            "name": "Imbrator El Mango (Gad Allah)",
+                            "contact": {},
+                            "location": {
+                                "address": "4th district",
+                                "crossStreet": "me7war el kafrawy",
+                                "lat": 29.953812,
+                                "lng": 30.937065,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 29.953812,
+                                        "lng": 30.937065
+                                    }
+                                ],
+                                "distance": 368,
+                                "postalCode": "12566",
+                                "cc": "EG",
+                                "city": "6th of October",
+                                "state": "giza",
+                                "country": "مصر",
+                                "formattedAddress": [
+                                    "4th district (me7war el kafrawy)",
+                                    "6th of October",
+                                    "giza",
+                                    "12566",
+                                    "مصر"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d112941735",
+                                    "name": "Juice Bar",
+                                    "pluralName": "Juice Bars",
+                                    "shortName": "Juice Bar",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/juicebar_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-57accfaa498e385b2387e264-0"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "50df2915e4b0fe5bc853af89",
+                            "name": "El Omda Cafe",
+                            "contact": {},
+                            "location": {
+                                "lat": 29.951717793336627,
+                                "lng": 30.935082469505623,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 29.951717793336627,
+                                        "lng": 30.935082469505623
+                                    }
+                                ],
+                                "distance": 605,
+                                "cc": "EG",
+                                "city": "مدينة ٦ أكتوبر",
+                                "state": "Muḩāfaz̧at al Jīzah",
+                                "country": "مصر",
+                                "formattedAddress": [
+                                    "مدينة ٦ أكتوبر",
+                                    "Muḩāfaz̧at al Jīzah",
+                                    "مصر"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d16d941735",
+                                    "name": "Café",
+                                    "pluralName": "Cafés",
+                                    "shortName": "Café",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-50df2915e4b0fe5bc853af89-1"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "535bf70a498e36842658f0bc",
+                            "name": "Ya Halla (ياهلا)",
+                            "contact": {},
+                            "location": {
+                                "address": "Gameat El Dowal St",
+                                "lat": 29.95860264964458,
+                                "lng": 30.946093470948433,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 29.95860264964458,
+                                        "lng": 30.946093470948433
+                                    }
+                                ],
+                                "distance": 734,
+                                "cc": "EG",
+                                "city": "Mohandesin",
+                                "state": "Muḩāfaz̧at al Jīzah",
+                                "country": "مصر",
+                                "formattedAddress": [
+                                    "Gameat El Dowal St",
+                                    "Mohandesin",
+                                    "Muḩāfaz̧at al Jīzah",
+                                    "مصر"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d115941735",
+                                    "name": "Middle Eastern Restaurant",
+                                    "pluralName": "Middle Eastern Restaurants",
+                                    "shortName": "Middle Eastern",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/middleeastern_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-535bf70a498e36842658f0bc-2"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "506a9665498e2e8d0d798db9",
+                            "name": "Abo Ammar Fuul Stand (عربية فول ابو عمار)",
+                            "contact": {},
+                            "location": {
+                                "address": "Abubakr El Sediq St",
+                                "crossStreet": "2'nd District",
+                                "lat": 29.95927743898733,
+                                "lng": 30.945381848520814,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 29.95927743898733,
+                                        "lng": 30.945381848520814
+                                    }
+                                ],
+                                "distance": 749,
+                                "cc": "EG",
+                                "city": "مدينة ٦ أكتوبر",
+                                "state": "Muḩāfaz̧at al Jīzah",
+                                "country": "مصر",
+                                "formattedAddress": [
+                                    "Abubakr El Sediq St (2'nd District)",
+                                    "مدينة ٦ أكتوبر",
+                                    "Muḩāfaz̧at al Jīzah",
+                                    "مصر"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1cb941735",
+                                    "name": "Food Truck",
+                                    "pluralName": "Food Trucks",
+                                    "shortName": "Food Truck",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/streetfood_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "verified": false,
+                            "stats": {
+                                "tipCount": 0,
+                                "usersCount": 0,
+                                "checkinsCount": 0,
+                                "visitsCount": 0
+                            },
+                            "beenHere": {
+                                "count": 0,
+                                "lastCheckinExpiredAt": 0,
+                                "marked": false,
+                                "unconfirmedCount": 0
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "hereNow": {
+                                "count": 0,
+                                "summary": "Nobody here",
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-506a9665498e2e8d0d798db9-3"
+                    }
+                ]
+            }
+        ]
+    }
+}

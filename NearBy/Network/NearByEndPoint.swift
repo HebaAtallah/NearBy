@@ -29,8 +29,10 @@ enum NearByEndPoint: TargetType {
     
     var sampleData: Data {
         switch self {
-        case .nearByPlaces, .photos:
-            return stubbedResponse("venues")
+        case .nearByPlaces:
+            return stubbedResponse("places")
+        case .photos:
+            return stubbedResponse("photos")
         }
     }
     
