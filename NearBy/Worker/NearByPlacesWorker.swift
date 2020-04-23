@@ -51,7 +51,6 @@ class NearByPlacesWorker: PlacesProviderType {
             .photos(venueID: venueId))
             .retry(3)
             .asObservable().map(Photo.self, atKeyPath: "response")
-        
         return request
     }
     
