@@ -25,10 +25,10 @@ class PlaceTableViewCell: UITableViewCell {
         self.detailTextLabel?.text = place.subtitle
         self.imageView?.image = UIImage(named: "photo")
         
-        loadImageTask?.subscribe(onNext: { response in
+        loadImageTask?.subscribe(onNext: { [weak self] response in
             if let photo = response.photos.items.first {
                 let imageUrl = "\(photo.prefix)\(photo.width)x\(photo.height)\(photo.suffix)"
-                self.imageView?.kf.setImage(with: URL(string: imageUrl), placeholder: UIImage(named: "photo"))
+                self?.imageView?.kf.setImage(with: URL(string: imageUrl), placeholder: UIImage(named: "photo"))
             }
         }).disposed(by: disposeBag)
     }
