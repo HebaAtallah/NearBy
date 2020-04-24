@@ -32,10 +32,12 @@ class NearByPlacesPresenter: NearByPlacesPresentationLogic {
     func present(error: Errors) {
         switch error {
         case .noData:
-            let blankSlate = NearByPlaces.ViewModel.BlankSlate(image: "exclamation-button", description: "No data found !!")
+            let blankSlate = NearByPlaces.ViewModel.BlankSlate(image: Errors.noData.image,
+                                                               description: Errors.noData.title)
             viewController?.display(blankSlate: blankSlate)
         case .fail:
-            let blankSlate = NearByPlaces.ViewModel.BlankSlate(image: "error-icon", description: "Something went wrong !!")
+            let blankSlate = NearByPlaces.ViewModel.BlankSlate(image: Errors.fail.image,
+                                                               description: Errors.fail.title)
             viewController?.display(blankSlate: blankSlate)
         }
     }

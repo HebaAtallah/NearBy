@@ -11,4 +11,22 @@ import Foundation
 enum Errors: Swift.Error {
     case noData
     case fail
+    
+    var title: String {
+        switch self {
+        case .noData:
+            return "No data found !!"
+        case .fail:
+            return "Something went wrong !!"
+        }
+    }
+    
+    var image: String {
+        switch self {
+        case .noData:
+            return "exclamation-button"
+        case .fail:
+            return "error-icon"
+        }
+    }
 }
